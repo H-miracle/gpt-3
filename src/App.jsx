@@ -1,0 +1,14 @@
+import React from 'react'
+import './App.css'
+import { Footer, Blog, Possibility, WhatGPT3, Header, Features } from './container'
+import {Article, Brand, CTA} from './components'
+
+const App = () => {
+  return (
+    <div>
+      GPT-3
+    </div>
+  )
+}
+
+export default App
