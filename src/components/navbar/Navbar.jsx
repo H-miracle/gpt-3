@@ -3,6 +3,7 @@ import './navbar.css'
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/logo.svg'
 import { useState } from 'react'
+// import './index.js'
 
 const Menu = () => (
    <>

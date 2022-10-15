@@ -39,10 +39,10 @@ li {
    -webkit-text-fill-color: transparent;
 }
 .section__padding {
-   padding: 4rem 6rem;
+   padding: 2rem 6rem;
 }
 .section__margin {
-   margin: 4rem 6rem;
+   margin: 3rem 6rem;
 }
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -83,10 +83,10 @@ li {
  /* ===========MEDIA QUERIES FOR MOBILE PHONES ============= */
  @media screen and (max-width: 550px ){
    .section__padding {
-      padding: 4rem 2rem;
+      padding: 3rem 2rem;
    }
    .section__margin{
-      margin: 4rem 2rem;
+      margin: 3rem 2rem;
    }
  }
  
