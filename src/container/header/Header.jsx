@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import people from '../../assets/people.png'
 import ai from '../../assets/ai.png'
+import Tilt from 'react-parallax-tilt'
 
 
 const Header = () => {
@@ -23,9 +24,21 @@ const Header = () => {
             </div>
          </div>
 
-         <div className="gpt3__header-image">
-            <img src={ai} alt='ai'/>
-         </div>
+         
+            <div className="gpt3__header-image">
+               <Tilt 
+                  className="parallax-effect-img"
+                  tiltMaxAngleX={40}
+                  tiltMaxAngleY={40}
+                  perspective={800}
+                  transitionSpeed={1500}
+                  scale={1.1}
+                  gyroscope={true}
+               >
+               <img src={ai} alt='ai' className='inner-element'/>
+               </Tilt>
+            </div>
+         
       </div>
    )
 }
