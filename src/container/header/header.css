@@ -18,7 +18,7 @@
    line-height: 60px;
    letter-spacing: -0.03rem;
 }
-.gradient__text{
+.gradient__text {
    animation: glitch 1s linear infinite;
  }
  
